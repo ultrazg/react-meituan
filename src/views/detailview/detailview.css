@@ -1,0 +1,111 @@
+.detail-view {
+  padding-top: 45px;
+}
+.detail-view .detail-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #000;
+  z-index: 99;
+}
+.detail-view .detail-nav .right-btn {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.detail-view .detail-nav .share {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.detail-view .detail-banner {
+  background: #fff;
+}
+.detail-view .detail-banner .detail-img {
+  margin-bottom: 0.3rem;
+}
+.detail-view .detail-banner .detail-name {
+  font-size: 0.6rem;
+  padding-left: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.detail-view .detail-banner .detail-score-border {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.3);
+  padding: 0 0.3rem 0.2rem 0;
+  width: 95vw;
+  margin: 0 auto;
+}
+.detail-view .detail-banner .detail-score-border .detail-score {
+  font-size: 0.4rem;
+  margin-right: 0.3rem;
+  color: #FFCC00;
+}
+.detail-view .detail-banner .detail-score-border .detail-average {
+  color: silver;
+}
+.detail-view .detail-banner .detail-address {
+  display: flex;
+  padding: 0.3rem 0;
+  height: 1.6rem;
+}
+.detail-view .detail-banner .detail-address .detail-location {
+  line-height: 0.4rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.4rem;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.detail-view .detail-banner .detail-address .detail-location .icon-location {
+  color: skyblue;
+}
+.detail-view .detail-banner .detail-address .detail-phonenumber {
+  display: inline-block;
+  line-height: 0.38rem;
+  font-size: 0.36rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-indent: 0.38rem;
+}
+.detail-view .detail-banner .detail-address .detail-map {
+  flex: 1;
+  padding-right: 0.2rem;
+}
+.detail-view .detail-banner .detail-address .detail-phone {
+  flex: 0 0 1.4rem;
+  border-left: 2px solid rgba(7, 17, 27, 0.1);
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.7rem;
+  color: #228B22;
+}
+.detail-view .detail-title {
+  padding: 0.3rem;
+  border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+  font-size: 0.45rem;
+}
+.detail-view .detail-discount {
+  margin-top: 0.2rem;
+  line-height: 0.45rem;
+  padding-left: 0.2rem;
+}
+.detail-view .detail-discount:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0.2rem;
+}
+.detail-view .detail-discount .detail-icon {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  vertical-align: top;
+}
+.detail-view .detail-discount .detail-info {
+  font-size: 0.38rem;
+  margin-left: 0.2rem;
+}

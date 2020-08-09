@@ -1,0 +1,32 @@
+@main-color: #FFBF00;
+@font-color: #222222;
+
+.home-view {
+  position   : relative;
+  height     : calc(100vh-50px);
+  padding-top: 45px;
+
+  .home-navbar {
+    background: @main-color;
+    position  : absolute;
+    left      : 0;
+    top       : 0;
+    width     : 100vw;
+    z-index   : 9;
+
+    .address {
+      color: @font-color;
+    }
+
+    .navbar-search {
+      background: #FFF9E5;
+    }
+
+
+  }
+
+  .am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon {
+    width : 1rem !important;
+    height: 1rem;
+  }
+}

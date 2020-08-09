@@ -1,0 +1,23 @@
+.map-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.map-wrapper .map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.map-wrapper .map-back {
+  position: absolute;
+  top: 0.3rem;
+  left: 0.3rem;
+  z-index: 99;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+}

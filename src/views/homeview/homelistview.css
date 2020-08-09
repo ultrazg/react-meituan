@@ -1,0 +1,25 @@
+.home-list-view-wrapper {
+  position: relative;
+}
+.home-list-view-wrapper .home-list-view .am-list {
+  width: 100vw !important;
+}
+.home-list-view-wrapper .home-list-view .am-list .am-list-header {
+  padding: 0 0 0.3rem;
+}
+.home-list-view-wrapper .top-btn {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.4rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #FFBF00;
+  color: #fff;
+}
+.home-list-view-wrapper .top-btn .title {
+  position: relative;
+  top: -0.1rem;
+  font-size: 0.4rem;
+}

@@ -1,0 +1,66 @@
+.tuan-list-item {
+  padding: 0 0.2rem;
+  width: 100vw;
+}
+.tuan-list-item .list-item-content {
+  display: flex;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid #ccc;
+}
+.tuan-list-item .list-item-content .list-item-avatar {
+  flex: 0 0 2.4rem;
+  height: 2.4rem;
+  margin-right: 0.2rem;
+}
+.tuan-list-item .list-item-content .list-item-desc {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.tuan-list-item .list-item-content .list-item-delivery {
+  position: absolute;
+  right: 0.3rem;
+  top: 0;
+  color: rgba(7, 17, 27, 0.5);
+}
+.tuan-list-item .list-item-content .list-item-seller-name {
+  margin-bottom: 0.1rem;
+  font-size: 0.4rem;
+  font-weight: 600;
+}
+.tuan-list-item .list-item-content .list-item-info {
+  margin-bottom: 0.1rem;
+  white-space: nowrap;
+}
+.tuan-list-item .list-item-content .list-item-info .star {
+  display: inline-block;
+  font-size: 0.52rem;
+  line-height: 0.52rem;
+  font-weight: 600;
+  color: #fc0;
+}
+.tuan-list-item .list-item-content .list-item-info .address {
+  display: inline-block;
+  width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tuan-list-item .list-item-content .list-item-discounts {
+  width: 100%;
+  overflow: hidden;
+}
+.tuan-list-item .list-item-content .discount-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.34rem;
+  line-height: 0.36rem;
+  margin-bottom: 0.08rem;
+  color: rgba(7, 17, 27, 0.5);
+}
+.tuan-list-item .list-item-content .discount-icon {
+  width: 0.36rem;
+  height: 0.36rem;
+  vertical-align: top;
+  margin-right: 0.1rem;
+}

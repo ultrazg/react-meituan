@@ -1,0 +1,80 @@
+.tuan-list-item {
+  padding: 0 .2rem;
+  width  : 100vw;
+
+  .list-item-content {
+    display      : flex;
+    padding      : .2rem 0;
+    border-bottom: 1px solid #ccc;
+
+    .list-item-avatar {
+      // 在sass 嵌套中有一个规范,嵌套最好不要超过三层
+      flex        : 0 0 2.4rem;
+      height      : 2.4rem;
+      margin-right: 0.2rem;
+    }
+
+    .list-item-desc {
+      flex    : 1;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .list-item-delivery {
+      position: absolute;
+      right   : 0.3rem;
+      top     : 0;
+      color   : rgba(7, 17, 27, 0.5);
+    }
+
+    .list-item-seller-name {
+      margin-bottom: 0.1rem;
+      font-size    : 0.4rem;
+      font-weight  : 600;
+    }
+
+    .list-item-info {
+      margin-bottom: 0.1rem;
+      white-space  : nowrap;
+
+      .star {
+        display    : inline-block;
+        font-size  : 0.52rem;
+        line-height: 0.52rem;
+        font-weight: 600;
+        color      : #fc0;
+      }
+
+      .address {
+        display      : inline-block;
+        width        : 85%;
+        overflow     : hidden;
+        text-overflow: ellipsis;
+      }
+
+    }
+
+    .list-item-discounts {
+      width   : 100%;
+      overflow: hidden;
+    }
+
+    .discount-item {
+      white-space  : nowrap;
+      overflow     : hidden;
+      text-overflow: ellipsis;
+      font-size    : 0.34rem;
+      line-height  : 0.36rem;
+      margin-bottom: 0.08rem;
+      color        : rgba(7, 17, 27, 0.5);
+    }
+
+    .discount-icon {
+      width         : 0.36rem;
+      height        : 0.36rem;
+      vertical-align: top;
+      margin-right  : 0.1rem;
+    }
+
+  }
+}

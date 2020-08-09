@@ -1,0 +1,89 @@
+@main-color: #FFBF00;
+
+.discover-view {
+  .discover-top {
+    width      : 100vw;
+    height     : 45px;
+    background : @main-color;
+    text-align : center;
+    line-height: 45px;
+    font-size  : 0.4rem;
+    font-weight: 600;
+    position   : relative;
+    top        : 0;
+    left       : 0;
+  }
+
+  .discover-content {
+    width        : 100vw;
+    height       : calc(100vh - 45px - 50px);
+    // margin-top: 45px;
+
+    .discover-item {
+      padding: 0.5rem;
+
+      .discover-item-box {
+        margin-bottom: 0.6rem;
+        height       : 7rem;
+        border-radius: 8px;
+        overflow     : hidden;
+        background   : #fff;
+        box-shadow   : 0 3px 8px rgba(7, 17, 27, 0.1);
+
+        .discover-item-pic {
+          height: 5rem;
+        }
+
+        .discover-item-title {
+          font-size    : 0.4rem;
+          font-weight  : 400;
+          padding      : 0 0.2rem 0 0.2rem;
+          text-overflow: ellipsis;
+          white-space  : nowrap;
+          overflow     : hidden;
+          height       : 0.7rem;
+          line-height  : 0.7rem;
+        }
+
+        .discover-item-head {
+          width        : 0.7rem;
+          height       : 0.7rem;
+          margin-top   : 0.2rem;
+          margin-left  : 0.2rem;
+          border-radius: 50%;
+        }
+
+        .discover-item-author {
+          font-size    : 0.35rem;
+          margin-left  : 0.2rem;
+          display      : inline-block;
+          width        : 3.5rem;
+          text-overflow: ellipsis;
+          white-space  : nowrap;
+          overflow     : hidden;
+          height       : 0.7rem;
+          line-height  : 0.7rem;
+          color        : @main-color;
+        }
+
+        .discover-item-like {
+          margin-left  : 0.2rem;
+          display      : inline-block;
+          width        : 1rem;
+          text-overflow: ellipsis;
+          white-space  : nowrap;
+          overflow     : hidden;
+          height       : 0.7rem;
+          line-height  : 0.7rem;
+          color        : @main-color;
+        }
+
+        .discover-item-likeicon {
+          width        : 0.5rem;
+          margin-bottom: 0.18rem;
+          margin-left  : 2rem;
+        }
+      }
+    }
+  }
+}
